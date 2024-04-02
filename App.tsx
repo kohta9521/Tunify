@@ -1,6 +1,11 @@
 import { StatusBar } from "expo-status-bar";
 import { Text, View } from "react-native";
 
+// amplify
+import { Amplify } from "aws-amplify";
+import amplifyconfig from "./src/amplifyconfiguration.json";
+Amplify.configure(amplifyconfig);
+
 // navigation
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
