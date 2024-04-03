@@ -34,6 +34,7 @@
     "react-native-screens": "~3.29.0",
     "react-native-web": "~0.19.6",
     "redux": "^5.0.1",
+    "sass": "^1.72.0",
     "tamagui": "^1.93.2"
   },
   "devDependencies": {
@@ -42,6 +43,7 @@
     "@storybook/addon-interactions": "^7.6.17",
     "@storybook/addon-links": "^7.6.17",
     "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/addon-webpack5-compiler-babel": "^3.0.3",
     "@storybook/blocks": "^7.6.17",
     "@storybook/react": "^7.6.17",
     "@storybook/react-webpack5": "^7.6.17",
