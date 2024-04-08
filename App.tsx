@@ -46,6 +46,26 @@ export default function App() {
           }}
         />
         <Tab.Screen
+          name="Search"
+          component={HomeScreen}
+          options={{
+            title: "Search",
+            tabBarIcon: ({ color, size }) => (
+              <Ionicons name="search" size={size} color={color} />
+            ),
+          }}
+        />
+        <Tab.Screen
+          name="Cross"
+          component={HomeScreen}
+          options={{
+            title: "Cross",
+            tabBarIcon: ({ color, size }) => (
+              <Ionicons name="person" size={size} color={color} />
+            ),
+          }}
+        />
+        <Tab.Screen
           name="User"
           component={UserScreen}
           options={{
